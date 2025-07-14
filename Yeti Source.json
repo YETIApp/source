@@ -1,0 +1,95 @@
+{
+  "name": "Yeti Source",
+  "subtitle": "A source for all of my apps",
+  "description": "Welcome to my source! Here you'll find all of my apps.",
+  "iconURL": "https://i.imgur.com/TqG81cH.png",
+  "website": "https://yeti-studios.io",
+  "patreonURL": "",
+  "tintColor": "#6156e2",
+  "featuredApps": [
+    "com.google.ios.youtube",
+    "org.provenance-emu.provenance"
+  ],
+  "apps": [
+    {
+      "name": "YouTube",
+      "bundleIdentifier": "com.google.ios.youtube",
+      "marketplaceID": "",
+      "developerName": "Example Developer",
+      "subtitle": "An awesome app.",
+      "localizedDescription": "This is an awesome app only available on AltStore.",
+      "iconURL": "https://i.imgur.com/wEtomLp.png",
+      "tintColor": "#fc0434",
+      "category": "other",
+      "screenshots": [],
+      "versions": [
+        {
+          "downloadURL": "https://www.dropbox.com/scl/fi/roir49iaiqzn0nuzc9w1k/YouTubePlus_5.2b1-1.ipa",
+          "size": 118600000,
+          "version": "20.23.3",
+          "buildVersion": null,
+          "date": "2025-07-14T13:28:00+02:00",
+          "localizedDescription": null,
+          "minOSVersion": null
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSCameraUsageDescription": "This lets you create videos using the app.",
+          "NSUserTrackingUsageDescription": "To personalize ads and provide ad measurement, YouTube will link activity from this app with activity from non-Google apps and websites.",
+          "NSBluetoothPeripheralUsageDescription": "YouTube needs bluetooth access to scan for nearby Cast devices.",
+          "NSLocalNetworkUsageDescription": "Access to your network allows YouTube to discover and connect to devices such as your TV.",
+          "NSAppleMusicUsageDescription": "This lets you add your own audio files to your videos.",
+          "NSMicrophoneUsageDescription": "This lets you include audio with your videos and search using your voice.",
+          "NSLocationWhenInUseUsageDescription": "Makes it easier for you to attach location information to your videos and live streams and allows for features such as improved recommendations and ads.",
+          "NSContactsUsageDescription": "Your contacts will be sent to YouTube servers to help you find friends to share videos with.",
+          "NSPhotoLibraryUsageDescription": "This lets you upload media you've already created."
+        }
+      },
+      "patreon": {}
+    },
+    {
+      "name": "Provenance",
+      "bundleIdentifier": "org.provenance-emu.provenance",
+      "marketplaceID": "",
+      "developerName": "Example Developer",
+      "subtitle": "An awesome app.",
+      "localizedDescription": "This is an awesome app only available on AltStore.",
+      "iconURL": "https://i.imgur.com/qOvVAOw.png",
+      "tintColor": "#1cc4fc",
+      "category": "other",
+      "screenshots": [],
+      "versions": [
+        {
+          "downloadURL": "https://www.dropbox.com/scl/fi/07pm8gqfcpcto8z2zxzgx/Provenance.ipa",
+          "size": 718300000,
+          "version": "3.1.0",
+          "buildVersion": null,
+          "date": "2025-07-14T13:24:00+02:00",
+          "localizedDescription": null,
+          "minOSVersion": null
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSAccentColorName": "ProvenanceBlue",
+          "NSBluetoothAlwaysUsageDescription": "Provenance uses Bluetooth to support game controllers.",
+          "NSCameraUsageDescription": "Used for album artwork.",
+          "NSExtensionPointIdentifier": "com.apple.tv-top-shelf",
+          "NSFileProviderDomainUsageDescription": "Provenance uses file provider for loading ROMs.",
+          "NSLocalNetworkUsageDescription": "RetroArch needs access to WiFi networks for enhanced emulated WiFi network features.",
+          "NSLocationUsageDescription": "Some games may use location data to enhance emulated location gameplay features",
+          "NSLocationWhenInUseUsageDescription": "Some games may use location data to enhance emulated location gameplay features",
+          "NSMicrophoneUsageDescription": "Provenance uses the microphone for systems that support audio input (eg. Famicom, Nintendo DS, 3DS).",
+          "NSMotionUsageDescription": "Provenance uses your device's accelerometer and gyroscope to emulate the portable consoles' built-in accelerometer and gyroscope.",
+          "NSPhotoLibraryAddUsageDescription": "Provenance can set custom artworks from your photos or save screenshots to the Photo Library.",
+          "NSPhotoLibraryUsageDescription": "Provenance can set custom artworks from your photos or save screenshots to the Photo Library."
+        }
+      },
+      "patreon": {}
+    }
+  ],
+  "news": []
+}
